@@ -1,36 +1,18 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-  <title>aidanbailey.me</title>
-</head>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-<body>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-  <h3>
-    .me
-  </h3>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-  <p>
-    I'm Aidan, a human being that
-    likes general human things,
-    such as hiking, reading, dancing and
-    playing instruments.
-    I also like to think and discuss.
-  </p>
-
-  <h3>
-
-  </h3>
-
-  <p>
-    In fact, I like to think and discuss so much that I am
-    pursuing a Masters of Science at the University of Cape Town.
-    I am specialising in Computer Science, an area I discovered my
-    passion for as a young child playing Toy Story 2: Buzz Lightyear
-    to the Rescue.
-  </p>
-
-</body>
-
-</html>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
