@@ -1,15 +1,20 @@
 ---
 layout: page
-title: About
+title: Hello!
 permalink: /about/
 ---
 
-Some information about you!
+I'm Aidan, a human being that
+likes general human things,
+such as hiking, reading, dancing and
+playing instruments.
+I also like to think and discuss.
 
-### More Information
+<!-- In fact, I like thinking and discussing so much that I am
+pursuing a Masters of Science at the University of Cape Town.
+I am specialising in Computer Science, an area I discovered my
+passion for as a young child playing Toy Story 2: Buzz Lightyear
+to the Rescue.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Whether a life in academia is for me is still to be seen.
+-->
