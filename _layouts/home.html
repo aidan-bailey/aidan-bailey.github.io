@@ -8,14 +8,12 @@ layout: default
 
   {% capture site_lang %}{{ site.lang | default: "en" }}{% endcapture %}
 
-  <h1>Hello!</h1>
+  <h1 class="page-heading">{% include i18n.html value="hello" default="Hello!" %}</h1>
 
   <p>
   I’m Aidan, a human being that likes general human things, such as hiking, reading, dancing and playing instruments.
   I particularly like to think and discuss.
   </p>
-
-  <h1>Latest Post</h1>
 
   <ul class="post-archives">
     {% for post in site.posts %}
@@ -44,6 +42,8 @@ layout: default
 
     {% break %}
     {% endfor %}
+
+    <a href="/archives">Archives</a>
 
   </ul>
 
