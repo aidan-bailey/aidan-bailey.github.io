@@ -1,11 +1,10 @@
-# whiteglass
+---
+layout: page
+title: "About"
+permalink: /about/
+---
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-whiteglass.svg)](https://badge.fury.io/rb/jekyll-whiteglass)
-[![CI](https://github.com/yous/whiteglass/actions/workflows/main.yml/badge.svg)](https://github.com/yous/whiteglass/actions/workflows/main.yml)
-
-Minimal, responsive Jekyll theme for hackers.
-
-![whiteglass theme](screenshot.png)
+whiteglass is a minimal, responsive Jekyll theme for hackers.
 
 ## Installation
 
@@ -39,7 +38,7 @@ gem install jekyll-whiteglass
 2. Click "Use this template" button, and then create a repository.
 3. Change the options defined in _config.yml. See [Configuration](https://github.com/yous/whiteglass-template#configuration)
    section under whiteglass-template.
-4. Push some content, then GitHub Actions will generate the site.
+5. Push some content, then GitHub Actions will generate the site.
 
 ## Manual Setup
 
@@ -105,7 +104,7 @@ gem install jekyll-whiteglass
 
 ## Upgrading
 
-### From Versions < 1.9.1
+### From Version < 1.9.1
 
 Copy
 [`_data/i18n.yml`](https://github.com/yous/whiteglass/blob/master/_data/i18n.yml)
@@ -355,27 +354,3 @@ google_analytics: G-NNNNNNNNNN
 ```
 
 Replace `N`s with your specific ID.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at
-<https://github.com/yous/whiteglass>. This project is intended to be a safe,
-welcoming space for collaboration, and contributors are expected to adhere to
-the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run
-`bundle exec jekyll serve` and open your browser at
-`http://localhost:4000/whiteglass/`. This starts a Jekyll server using your
-theme. Add pages, documents, data, etc. like normal to test your theme's
-contents. As you make modifications to your theme and to your content, your site
-will regenerate and you should see the changes in the browser after a refresh,
-just like normal.
-
-## License
-
-The theme is available as open source under the terms of the
-[MIT License](http://opensource.org/licenses/MIT).
