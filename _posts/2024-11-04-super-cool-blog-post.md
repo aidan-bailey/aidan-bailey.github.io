@@ -2,4 +2,4 @@
 layout: post
 ---
 
-Lorem epsum mother fucker
+Lorem ipsum mother fucker
